@@ -1,16 +1,46 @@
-# React + Vite
+# Dad-Jokes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Single-page web application that generates random dad jokes with favorites, keyboard shortcuts, and a polished card-based UI.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Single-page web application that generates random dad jokes with favorites, keyboard shortcuts, and a polished card-based UI.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 111 hand-crafted dad jokes with questions and answers
+- Card-based UI with entrance and exit animations
+- Favorites drawer persisted in localStorage
+- Keyboard shortcuts: Space (next), Enter (reveal), F (favorite), D (drawer)
+- Copy joke to clipboard with one click
+- Responsive design with dark theme and Google Fonts
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- JavaScript (React 19, Vite 8)
+- Git
+
+### Steps
+
+```
+git clone https://github.com/judeako402-dotcom/Dad-Jokes.git
+cd Dad-Jokes
+npm install
+npm run dev
+```
+
+## Usage
+
+See the project documentation for detailed usage instructions.
+
+## Use Cases
+
+- Quick humor break during work or study
+- Icebreaker tool for presentations and meetings
+- Reference collection of classic dad jokes
+
+## License
+
+MIT
